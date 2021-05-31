@@ -1,6 +1,8 @@
 # bedrock-unicode-characters
 Minecraft:Bedrock Edition Unicode characters
 
+This fork includes an [additional preview tool](./index.html).
+
 ## How to use
 Copy the unicode character and paste it into Minecraft: Bedrock Edition chats, signs, titles etc.
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTD Preview</title>
+
+    <script src="script.js" defer></script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .container .child {
+            margin: 5px;
+            max-width: 50%;
+            width: 100%;
+            min-height: 250px;
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bedrock MOTD Preview</h1>
+    <div class="container">
+        <textarea id="input" class="child">&a this is a bit of a bodge, &4but it works</textarea>
+        <div id="output" class="child"></div>
+    </div>
+</body>
+</html>
